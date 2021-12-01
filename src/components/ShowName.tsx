@@ -1,13 +1,7 @@
 import React from "react";
 
-type ShowNameProps = {
-  name?: string;
+const ShowName = () => {
+  return <div> this is optical keyboard </div>;
 };
-
-const ShowName = ({ name }: ShowNameProps) => (
-  <>
-    <h1> {name} </h1>
-  </>
-);
 
 export default ShowName;
